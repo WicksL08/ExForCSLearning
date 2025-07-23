@@ -3,3 +3,4 @@ title: "CTF Study"
 description: "Capture the Flag Study - Enhancing High School Cybersecurity Education"
 theme: jekyll-theme-cayman  # Choose a theme or customize it
 markdown: kramdown
+baseurl: "/ExForCSLearning"
