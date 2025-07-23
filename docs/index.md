@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Page Title"   # Add the title for this specific page
+---
+
 # Welcome to the CTF Study
 
 Welcome to the Capture The Flag (CTF) Study page! This study explores the use of CTF challenges as an experiential learning tool to improve high school cybersecurity education. Our goal is to enhance the practical knowledge of students and prepare them for real-world cybersecurity challenges.
