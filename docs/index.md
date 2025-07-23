@@ -1,7 +1,7 @@
----
+
 layout: default
 title: "Page Title"   # Add the title for this specific page
----
+
 
 # Welcome to the CTF Study
 
