@@ -1,7 +1,7 @@
-
+---
 layout: default
-title: "Page Title"   # Add the title for this specific page
-
+title: "Welcome to the CTF Study"
+---
 
 # Welcome to the CTF Study
 
