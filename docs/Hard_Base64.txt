@@ -1,0 +1,13 @@
+Mission: Hard Level – Double Encryption (Base64 + Caesar)
+
+Agent, HQ upgraded encryption! The message is double-protected. First, undo the Caesar Cipher shift, then decode the Base64 encoding.
+
+Encrypted Message:
+VDdQdE1tSnRUbmNx
+
+Instructions:
+1. Reverse the Caesar Cipher shift first.
+2. Decode the resulting Base64 string to reveal the original message.
+3. Submit the flag in the format: FLAG{DECODED_MESSAGE}
+
+Hint: Undo the shift first, then decode Base64.
