@@ -1,0 +1,12 @@
+Mission: Easy Level – Caesar Cipher
+
+Agent, your mission is to decrypt the intercepted message using a Caesar Cipher. Each letter has been shifted by a fixed number.
+
+Encrypted Message:
+Khoor Zruog
+
+Instructions:
+1. Shift each letter backwards by the correct number to reveal the message.
+2. Submit the flag in the format: FLAG{DECODED_MESSAGE}
+
+Hint: Shift each letter by 3.
