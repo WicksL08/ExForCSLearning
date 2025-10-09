@@ -1,0 +1,12 @@
+Mission: Medium Level – Substitution Cipher
+
+Agent, HQ sent a message using a substitution cipher. Each letter has been replaced by another letter consistently.
+
+Encrypted Message:
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+
+Instructions:
+1. Analyze the pattern of letters and decode the message.
+2. Submit the flag in the format: FLAG{DECODED_MESSAGE}
+
+Hint: Shift each letter back by 3.
