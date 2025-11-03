@@ -1,0 +1,33 @@
+title: Ex4CSLearning
+description: "High-school friendly cybersecurity activities for the pilot study."
+markdown: kramdown
+theme: minima
+
+pretest_url: https://YOUR-QUALTRICS-PRETEST
+posttest_url: https://YOUR-QUALTRICS-POSTTEST
+student_survey_url: https://YOUR-QUALTRICS-STUDENT-SURVEY
+ctfd_url: https://YOUR-CTFD-URL
+
+youtube_osint:
+  - https://youtu.be/aD-U2kP0vNk?si=0BONrOYQZliyi-K_
+  - https://youtu.be/UW92Ys-LsLU?si=YD4hwgwD2DeDFHzs
+  - https://youtu.be/sA1KEpSwk0A?si=-x2YIsu9Lm5ZutMs
+youtube_password:
+  - https://youtu.be/JRpg84eJHIM?si=dUJ64_9GEpCJ5gBk
+  - https://youtu.be/_CwGYkxrP-k?si=c_P-s4yi0Texx-hj
+  - https://youtu.be/Hcjqdl0zW5U?si=thR_b4_KwhvSbKyl
+  - https://youtu.be/eVIjEauSHZo?si=DrwIZaacEjxJm0Ct
+youtube_crypto:
+  - https://youtu.be/-yFZGF8FHSg?si=HW8M3eRg0O4KLxu5
+  - https://youtu.be/jhXCTbFnK8o?si=D48PEgE_ygfeZfLX
+  - https://youtu.be/s-NnDh4HquY?si=ZxJvJ0w18Or4U-1f
+  - https://youtu.be/BvlMCWCfsjE?si=Hn5ExsPbsRLEa4jX
+  - https://youtu.be/fq_iSA0caPI?si=fSgvP-UdH6FRVpQF
+
+brand:
+  primary: "#7C3AED"
+  secondary: "#06B6D4"
+  accent: "#F59E0B"
+  success: "#10B981"
+  neutral: "#111827"
+  light: "#F8FAFC"
