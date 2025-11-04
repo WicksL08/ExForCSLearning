@@ -1,26 +1,27 @@
 ---
 layout: default
-title: "Welcome to the CTF Study"
+title: Home
 ---
 
-# Welcome to the CTF Study
+# Welcome to Ex4CSLearning 🎉
 
-Welcome to the Capture The Flag (CTF) Study page! This study explores the use of CTF challenges as an experiential learning tool to improve high school cybersecurity education. Our goal is to enhance the practical knowledge of students and prepare them for real-world cybersecurity challenges.
+<div class="card">
+  <div class="badges">
+    <span class="pill purple">Day 1: OSINT</span>
+    <span class="pill cyan">Day 2: Passwords</span>
+    <span class="pill amber">Day 3: Crypto</span>
+  </div>
+  <p>This site hosts everything for our 3‑day pilot. Start with the pre‑test, then follow your day's activity page. If a link doesn’t load, ask for the printed QR sheet.</p>
+  <p>
+    <a class="btn fill" href="{ '{' } site.pretest_url { '}' }" target="_blank">Pre‑Test</a>
+    <a class="btn outline" href="{ '{' } site.ctfd_url { '}' }" target="_blank">Open CTFd</a>
+  </p>
+</div>
 
-Throughout this platform, you will find various CTF activities that help students learn fundamental networking and cybersecurity concepts in an engaging and hands-on way. Join us in exploring how CTFs can bridge the gap between theoretical learning and practical application in cybersecurity.
+## How each day works
+- 💡 Short intro to key ideas
+- 🧪 Hands‑on challenge(s)
+- 🏁 Submit flags on CTFd
+- 🗒️ Quick debrief + survey
 
-## Why Capture The Flag (CTF)?
-
-Capture The Flag (CTF) challenges are a fun and interactive way to learn and test cybersecurity skills. They allow students to apply what they’ve learned in a real-world scenario, making it easier to understand complex topics like networking, cryptography, and system vulnerabilities. By participating in CTF activities, students will develop problem-solving skills and gain a deeper understanding of the practical applications of cybersecurity concepts.
-
-## Goals of the Study
-
-This study aims to:
-1. Investigate the effectiveness of CTF challenges as a learning tool.
-2. Explore how CTFs help students apply theoretical knowledge in practical scenarios.
-3. Analyze how hands-on CTF experiences enhance cybersecurity education at the high school level.
-
-## Next Steps
-- [Learn more about the study](information.md)
-- [Explore the learning materials](learning.md)
-- [Dive into the CTF activities](activities.md)
+> _Prepared on November 03, 2025._
