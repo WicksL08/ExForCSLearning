@@ -1,30 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-</head>
-<body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <ul>
-        <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-        <li><a href="{{ site.baseurl }}/information.html">Information</a></li>
-        <li><a href="{{ site.baseurl }}/learning.html">Learning</a></li>
-        <li><a href="{{ site.baseurl }}/activities.html">Activities</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-grid">
+        <a href="{{ '/' | relative_url }}" class="brand-link">
+          <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Logo" class="brand-logo">
+          <div class="brand-text">
+            <span class="site-title">{{ site.title }}</span>
+            <span class="site-subtitle">Hands‑on, student‑friendly cybersecurity</span>
+          </div>
+        </a>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/osint' | relative_url }}">OSINT</a>
+          <a href="{{ '/password-cracking' | relative_url }}">Password Cracking</a>
+          <a href="{{ '/cryptography' | relative_url }}">Cryptography</a>
+          <a href="{{ '/resources' | relative_url }}">Resources</a>
+          <a href="{{ '/mapping' | relative_url }}">Mapping</a>
+        </nav>
+      </div>
 
-  <main>
-    {{ content }}
-  </main>
+      <section class="hero">
+        <div class="container">
+          <h2>Explore • Investigate • Decode</h2>
+          <p>Three days · OSINT · Password Cracking · Cryptography</p>
+          <div class="hero-cta">
+            <a class="btn fill" href="{{ site.pretest_url }}" target="_blank">Start Pre‑Test</a>
+            <a class="btn outline" href="{{ site.ctfd_url }}" target="_blank">Open CTFd</a>
+          </div>
+        </div>
+        <div class="hero-gradient"></div>
+      </section>
+    </header>
 
-  <footer>
-    <p>Created with ❤️ by [Your Name]</p>
-  </footer>
-</body>
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="pill-row">
+          <span class="pill purple">OSINT</span>
+          <span class="pill cyan">Password</span>
+          <span class="pill amber">Crypto</span>
+        </div>
+        <p>© {{ site.title }} — For educational use.</p>
+      </div>
+    </footer>
+  </body>
 </html>
