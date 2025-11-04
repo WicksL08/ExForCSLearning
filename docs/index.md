@@ -13,8 +13,8 @@ title: Home
   </div>
   <p>This site hosts everything for our 3‑day pilot. Start with the pre‑test, then follow your day's activity page. If a link doesn’t load, ask for the printed QR sheet.</p>
   <p>
-    <a class="btn fill" href="{ '{' } site.pretest_url { '}' }" target="_blank">Pre‑Test</a>
-    <a class="btn outline" href="{ '{' } site.ctfd_url { '}' }" target="_blank">Open CTFd</a>
+    <a class="btn fill" href="{{ site.pretest_url }}" target="_blank">Pre‑Test</a>
+    <a class="btn outline" href="{{ site.ctfd_url }}" target="_blank">Open CTFd</a>
   </p>
 </div>
 
