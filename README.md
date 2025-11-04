@@ -1,8 +1,15 @@
-# Ex4CSLearning — Pilot Website
+Ex4CSLearning – Pilot Study Website
 
+This repository hosts the official Ex4CSLearning Pilot Website, developed as part of a cyber security education research project at The University of Alabama.  
 
-## Publish steps
-1) Push folder to your GitHub repo (e.g., `Ex4CSLearning`).  
-2) Repo **Settings → Pages** → Source: **Deploy from a branch**; Branch: `main`; Folder: `/docs`.  
-3) Edit `docs/_config.yml` with your **Qualtrics**, **CTFd**, and **YouTube** links (already added).  
+It provides an interactive, student-friendly interface that supports three Capture the Flag (CTF)–style learning modules: OSINT, Password Cracking, and Cryptography.
 
+The website is published through GitHub Pages and connects to learning material , CTFd (for challenges) and (for pre/post assessments and surveys).
+
+---
+Purpose
+
+The goal of this site is to:
+- Introduce high school students to core cyber security principles through experiential learning.  
+- Provide teachers and facilitators with an easy-to-use, web-based resource during the pilot study.  
+- Collect assessment data via Qualtrics and evaluate the effectiveness of CTF-based instruction.
